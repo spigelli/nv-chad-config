@@ -33,10 +33,10 @@ if vim.g.neovide then
   vim.g.neovide_refresh_rate = 240
 
   -- Command key
-  vim.g.neovide_input_use_logo = false    -- true on macOS
+  vim.g.neovide_input_use_logo = true    -- true on macOS
 
   -- Alt on mac
-  vim.g.neovide_input_macos_alt_is_meta = false
+  vim.g.neovide_input_macos_alt_is_meta = true
 
   -- Cursor animation
   vim.g.neovide_cursor_animation_length = 0.008
