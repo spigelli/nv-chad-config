@@ -1,0 +1,17 @@
+[Desktop Entry]
+Type=Application
+TryExec=/home/spigelli/.config/lua/custom/desktop/neovide
+Exec=/home/spigelli/.config/lua/custom/desktop/neovide
+Icon=/home/spigelli/.config/lua/custom/desktop/nvchad.png
+Terminal=false
+Categories=System;TerminalEmulator;
+
+Name=Neovim
+GenericName=Neovim
+Comment=The best Neovim Config
+StartupWMClass=Neovim
+Actions=New;
+
+[Desktop Action New]
+Name=New Terminal
+Exec=/home/spigelli/.config/lua/custom/desktop/neovide
