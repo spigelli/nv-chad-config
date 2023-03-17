@@ -2,7 +2,13 @@
 local M = {}
 
 M.general = {
-
+  n = {
+    ["<leader>ih"] = {
+      ":TSCaptureUnderCursor<CR>",
+      "inspect highlight",
+      { noremap = true, silent = false }
+    },
+  },
 }
 
 M.nvimtree = {
